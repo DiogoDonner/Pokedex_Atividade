@@ -1,0 +1,22 @@
+Chamadas diretas (dados inclusos na resposta)
+Estes dados estão diretamente incluídos na resposta JSON:
+
+name: nome do Pokémon
+
+id: número da Pokédex
+
+height e weight: altura e peso
+
+types: tipos (ex: normal, fire, etc.)
+
+abilities: habilidades
+
+sprites: imagens
+
+stats: base stats (HP, ataque, etc.)
+
+moves: lista de movimentos que ele aprende
+
+20:57 02/06/2025
+
+https://www.dafont.com/pokemon.font

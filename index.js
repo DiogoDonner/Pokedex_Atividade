@@ -16,8 +16,8 @@ function buscarPoke() {
 
             const pokeNumber = document.getElementById("poke_number").innerHTML = "#"+ json.id;
             const pokeName = document.getElementById("poke_name").innerHTML = json.name;
-            const pokeType = document.getElementById("poke_type").innerText = json.types.map(t => t.type.name).join(', ');
-            const pokeSpecie = document.getElementById("poke_ability").innerHTML = json.abilities.map(a => a.ability.name).join(', ');
+            const pokeType = document.getElementById("poke_type").innerText = "Type: " + json.types.map(t => t.type.name).join(', ');
+            const pokeSpecie = document.getElementById("poke_ability").innerHTML = "Ability: " + json.abilities.map(a => a.ability.name).join(', ');
 
             const pokeSpriteNormal = document.getElementById("poke_spriteNormal");
             const spriteUrlNormal = json.sprites.front_default; // ← aqui está a correção
